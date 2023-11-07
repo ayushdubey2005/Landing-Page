@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Prompt:wght@300&family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Prompt', sans-serif;
+}
+
+.jumbotron{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5de69d19fbd78f1f1814ce36/1625085982994-7ZRCF3919P9PGNPHHMHN/Jumbotron+Background+Dark+Blue+Home+Page+Header-01.png?format=2500w);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+    color: #fff !important;
+    margin-top: 70px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#content{
+    text-align: center;
+    display: block !important;
+    padding-top: 10px;
+}
+
+.card-deck{
+    padding-top: 10px;
+}
+
+#footer{
+    color: #fff;
+    display: block !important;
+    text-align: center;
+    background-color: #191933;
+    padding:20px;
+}
+
+#appstore{
+    width: 150px;
+}
+
+a{
+    color: #fff !important;
+    text-align: center;
+}
